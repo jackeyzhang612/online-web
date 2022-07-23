@@ -1,0 +1,34 @@
+.topnav {
+    float: right;
+}
+
+.botnav {
+    float: right;
+}
+
+
+
+
+
+.topnavbar {
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.store_logo {
+    width: 192px;
+    cursor: pointer
+}
+
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+}

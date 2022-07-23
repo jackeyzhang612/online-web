@@ -1,0 +1,66 @@
+.topnav {
+    float: right;
+}
+
+.topnavbar {
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.store_logo {
+    width: 192px;
+    cursor: pointer
+}
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: white;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+.row {
+    flex-direction: column;
+    float:right;
+  }
+  
+  
+.column {
+    flex: 50%;
+    padding: 10px;
+  }
+
+.book_price {
+    float:right;
+    font-size: x-large;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+}

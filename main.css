@@ -1,0 +1,89 @@
+.topnav {
+    float: right;
+}
+
+.botnav {
+    float: right;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+}
+
+.Fantasy img,
+.Romance img,
+.Thriller img {
+    width: 200px;
+    padding: 0px 100px;
+    height: 280px;
+}
+
+.Fantasy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 31px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.Romance {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 31px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.Thriller {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 31px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+
+.container {
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-color: lightyellow;
+}
+
+.topnavbar {
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.store_logo {
+    width: 192px;
+    cursor: pointer
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+}
+
+
+
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+

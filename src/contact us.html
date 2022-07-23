@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF=8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Contact us</title>
+      <link rel="stylesheet" href="contact us.css" type="text/css">
+   </head>
+   <body>
+      <h1><u>Contact Us</u></h1>
+
+      
+      
+      <body>
+         <div class="contain">
+              <div class="topnavbar">
+                  <img src="bookstore.webp" alt="bookstore_logo" style="width:200px;height:200px;" class="store_logo">    
+                  <nav>
+                      <ul type="circle">    
+                          <div class="topnav">
+                              <li><a href="home.html" >Home</a></li>
+                              <li><a href="category.html">Category1</a></li>
+                              <li><a href="category.html">Category2</a></li>
+                          </div>
+                      </ul>
+                  </nav>
+              </div>    
+          </div>
+      
+      <form>
+         <div class="form-row">
+            <div class="form-label">
+               <label for="purpose">Purpose of contact</label>
+            </div>
+            <div class="form-field">
+               <select id="purpose" name="purpose">
+                  <option value="sell">I want to sell books</option>
+                  <option value="buy">I watn to buy books</option>
+                </select>
+            </div>   
+         </div>
+         
+         <div class="form-row">
+            <div class="form-label">
+              <label for="name">Your name</label>
+            </div>
+            <div class="form-field">
+              <input required id="name" type="text" name="name">
+            </div>
+         </div>
+         
+         <div class="form-row">
+            <div class="form-label">
+              <label for="email">Your email</label>
+            </div>
+            <div class="form-field">
+              <input required id="email" type="email" name="email">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form=label">
+               <label for="phone">Your phone</label>
+            </div>
+            <div class="form-field">
+               <input required id="phone" type="tel" name="phone" pattern="[0-9]{9,13}">
+            </div>
+         </div>
+         
+         <div class="form-row">
+            <div class="form-label">
+              <label>Preferred contact method</label>
+            </div>
+            <div class="form-field">
+               <ul>
+                  <li>
+                     <input type="radio" id="email_contact" name="contact_method" value="email">
+                     <label for="email_contact">By email</label>
+                  </li>
+                  <li>
+                     <input type="radio" id="phone_contact" name="contact_method" value="phone">
+                     <label for="phone_contact">By phone</label>
+                  </li> 
+               </ul>
+            </div>
+         </div>      
+         
+         <div class="form-row">
+            <div class="form-label">
+               <label>Do you want to receive our weekly newsletter</label>
+            </div>
+            <div class="form-field">
+               <ul>
+                  <li>
+                     <input type="radio" id="yes" name="receive" value="yes" checked="checked">
+                     <label for="yes">Yes</label>
+                  </li>   
+                  <li> 
+                     <input type="radio" id="no" name="receive" value="no">
+                     <label for="no">No</label>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         
+         <div class="form-row">
+            <div class="form-label">
+               <label for="note">Note</label>
+            </div>
+            <div class="form-field">
+               <textarea id="note" name="note" rows="4" cols="50"></textarea>
+            </div>
+
+            <div class="form-row">
+               <input type="reset" value="Delete">
+               <input type="Submit" value="Submit">
+             </div>
+         </div>
+      </form>
+
+      <footer>
+         <nav>
+             <ul type="circle">    
+             <div class="botnav">
+                 <li><a href="#">About us</a></li>
+                 <li><a href="#">Privacy Policy</a></li>
+                 <li><a href="#">Terms</a></li>
+                 <li><a href="#">Copyright</a></li>
+                 <li><a href="contact us.html">Contact us</a></li>
+             </div>
+             </ul>
+            </nav<br>
+     </footer>
+   </body>
